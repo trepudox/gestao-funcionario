@@ -6,37 +6,50 @@
 		<meta name="author" content="trepudox">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="stylesheet" href="src/css/style.css">
+		<link rel="stylesheet" href="src/css/main.css">
+		<link rel="stylesheet" href="src/css/home.css">
 
 		<title>Gestao Funcionario</title>
 	</head>
 
 	<body>
-		<header>
-			<h1>Gestão de Funcionários</h1>
-			<p>Programa simples para gestão de funcionários</p>
-		</header>
+		<main>
+			<header>
+				<h1>Gestão de Funcionários</h1>
+				<p>Programa simples para gestão de funcionários</p>
+			</header>
 
-		<div class="flex-container">
-			<div class="domain-container">
-				<h2>Pessoa</h2>
-				<ul>
-					<li>Consulta</li>
-					<li>Criação</li>
-					<li>Atualização</li>
-					<li>Remoção</li>
-				</ul>
+			<div class="flex-container">
+				<div class="domain-container">
+					<h2>Pessoas</h2>
+
+					<hr>
+
+					<div class="actions-container">
+						<a href="src/pages/pessoa/consulta-pessoa.html">Consulta</a>
+						<a href="src/pages/cargo/criacao-pessoa.html">Criação</a>
+						<a href="src/pages/cargo/atualizacao-pessoa.html">Atualização</a>
+						<a href="src/pages/cargo/remocao-pessoa.html">Remoção</a>
+					</div>
+				</div>
+
+				<div class="domain-container">
+					<h2>Cargos</h2>
+
+					<hr>
+
+					<div class="actions-container">
+						<a href="src/pages/cargo/consulta-cargo.html">Consulta</a>
+						<a href="src/pages/cargo/criacao-cargo.html">Criação</a>
+						<a href="src/pages/cargo/atualizacao-cargo.html">Atualização</a>
+						<a href="src/pages/cargo/remocao-cargo.html">Remoção</a>
+					</div>
+				</div>
 			</div>
 
-			<div class="domain-container">
-				<h2>Cargos</h2>
-				<ul>
-					<li>Consulta</li>
-					<li>Criação</li>
-					<li>Atualização</li>
-					<li>Remoção</li>
-				</ul>
-			</div>
-		</div>
+			<footer>
+				<p>TODO</p>
+			</footer>
+		</main>
 	</body>
 </html>
